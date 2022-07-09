@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Hello world"
+host: "XXX"
+basePath: "/"
+paths:
+  /:
+    get:
+      summary: "Hello worldを出力"
+      description: "Hello worldを出力する。"
+      responses:
+        "200":
+          description: "Success"
+        "405":
+          description: "Invalid input"
